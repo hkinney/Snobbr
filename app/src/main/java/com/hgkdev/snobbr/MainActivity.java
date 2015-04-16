@@ -8,6 +8,9 @@ import android.view.MenuItem;
 
 public class MainActivity extends ActionBarActivity {
 
+    private String untId = this.getString(R.string.untappd_id);
+    private String untSec = this.getString(R.string.untappd_secret);
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
